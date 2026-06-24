@@ -1,0 +1,8 @@
+/* src/index.css */
+/* 
+  These three lines import Tailwind CSS into our project.
+  Without these, Tailwind classes like "bg-blue-500" won't work.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

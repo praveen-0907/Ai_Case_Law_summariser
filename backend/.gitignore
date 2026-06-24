@@ -1,0 +1,7 @@
+# .gitignore for backend
+# These files/folders should NOT be uploaded to GitHub
+
+node_modules/   # Dependencies folder (too large to upload)
+.env            # Your secret keys (never share this!)
+.env.local
+uploads/        # Uploaded PDF files (temporary storage)

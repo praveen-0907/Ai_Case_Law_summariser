@@ -1,0 +1,17 @@
+# Requirements for Batch Legal Document Summarizer
+# Python 3.9+ required
+
+# Core async HTTP client
+aiohttp==3.9.1
+
+# For PDF text extraction (if processing PDFs directly)
+PyMuPDF==1.23.8
+
+# Standard library (no install needed, listed for reference)
+# - asyncio
+# - json
+# - csv
+# - logging
+# - pathlib
+# - dataclasses
+# - datetime

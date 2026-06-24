@@ -1,0 +1,7 @@
+# .gitignore for frontend
+# These files/folders should NOT be uploaded to GitHub
+
+node_modules/   # Dependencies folder (too large to upload)
+dist/           # Production build output
+.env            # Your secret keys (never share this!)
+.env.local

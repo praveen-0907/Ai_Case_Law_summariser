@@ -1,0 +1,10 @@
+# .gitignore for ai-service
+# These files/folders should NOT be uploaded to GitHub
+
+__pycache__/    # Python compiled bytecode (auto-generated)
+*.pyc           # Compiled Python files
+venv/           # Python virtual environment (too large to upload)
+env/            # Another common virtual environment folder name
+.env            # Your secret keys (never share this!)
+uploads/        # Uploaded PDF files
+*.pdf           # Don't accidentally commit PDF files

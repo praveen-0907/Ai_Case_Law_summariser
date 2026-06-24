@@ -1,0 +1,30 @@
+# ai-service/requirements.txt
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+# Web framework and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# File upload support (required by FastAPI for UploadFile)
+python-multipart==0.0.18
+
+# PDF text extraction (imported as 'fitz' in extraction.py)
+PyMuPDF==1.24.14
+
+# HTTP client (used in ollama_service.py, features.py, comparison.py to call Ollama)
+requests==2.31.0
+
+# Environment variable loading from .env (used in main.py, ollama_service.py)
+python-dotenv==1.0.0
+
+# Semantic similarity embeddings (used in similarity.py — model: all-MiniLM-L6-v2)
+# Downloads ~90MB model cache on first use
+sentence-transformers==3.0.1
+
+# Numerical array operations for cosine similarity math (used in similarity.py)
+# Install from precompiled wheel to avoid compilation issues
+numpy>=1.24.0,<2.0.0
+
+# Input/output validation (used across all routes via BaseModel, Field, field_validator)
+pydantic==2.6.0

@@ -1,0 +1,90 @@
+IN THE HIGH COURT OF DELHI AT NEW DELHI
+
+WRIT PETITION (CIVIL) NO. 1234 OF 2023
+
+Petitioner: ABC Private Limited
+Respondent: State of Delhi & Others
+
+JUDGMENT
+
+Coram:
+HON'BLE MR. JUSTICE [NAME REDACTED]
+
+Date of Decision: 15th March 2023
+
+FACTS OF THE CASE:
+
+1. The petitioner, ABC Private Limited, is a company incorporated under the Companies Act, 2013, engaged in the business of manufacturing pharmaceuticals.
+
+2. On 1st January 2022, the Respondent No. 1 (State of Delhi) issued a notice to the petitioner demanding payment of professional tax amounting to Rs. 5,00,000/- for the assessment year 2021-22.
+
+3. The petitioner contends that it is exempt from professional tax under Section 5(2) of the Delhi Professional Tax Act, 1989, as it is engaged in export activities exceeding 75% of its total turnover.
+
+4. The petitioner submitted detailed documentary evidence including export invoices, GST returns, and shipping bills to substantiate its claim for exemption.
+
+5. The Respondent rejected the exemption claim vide order dated 15th February 2022, stating that the petitioner failed to provide Form PT-7 within the prescribed timeline of 30 days from the end of the financial year.
+
+CONTENTIONS OF THE PETITIONER:
+
+6. The learned counsel for the petitioner argued that the requirement of filing Form PT-7 is procedural and cannot be used to deny a substantive benefit of exemption when the petitioner has clearly met all eligibility criteria.
+
+7. Relying on the Supreme Court decision in Commissioner of Income Tax vs. Reliance Industries Ltd. (2019) 16 SCC 736, it was submitted that substantial compliance should be accepted when there is no dispute on the merits.
+
+8. The petitioner further submitted that the delay in filing Form PT-7 was only 15 days, which is minimal and condonable under the general principles of natural justice.
+
+CONTENTIONS OF THE RESPONDENT:
+
+9. The learned counsel for the Respondent contended that Section 5(2) read with Rule 12 of the Delhi Professional Tax Rules, 1989, mandates strict compliance with procedural requirements.
+
+10. The Respondent argued that allowing exemption without timely filing would render the statutory timeline meaningless and lead to chaos in tax administration.
+
+11. Citing the decision in State of Punjab vs. Sharma Enterprises (2012) 8 SCC 449, the Respondent submitted that tax exemptions are strictly construed and procedural requirements cannot be waived.
+
+ISSUES FOR DETERMINATION:
+
+12. Whether non-filing of Form PT-7 within the prescribed timeline bars the petitioner from claiming exemption under Section 5(2) of the Act when substantive eligibility is established?
+
+13. Whether the delay of 15 days in filing Form PT-7 can be condoned in the facts and circumstances of this case?
+
+LEGAL ANALYSIS:
+
+14. This Court has carefully considered the submissions of both parties and perused the material on record.
+
+15. The principle of substantial compliance has been recognized by the Supreme Court in multiple decisions. In Commissioner of Income Tax vs. Reliance Industries Ltd. (supra), the Hon'ble Supreme Court held that when the substantive conditions for exemption are satisfied, procedural lapses should not defeat legitimate claims.
+
+16. However, this principle must be balanced against the need for administrative discipline in tax matters. The Delhi Professional Tax Act specifically mandates filing of Form PT-7 to enable verification of export claims.
+
+17. In the present case, the petitioner has established beyond doubt that it meets the substantive criteria for exemption - exports exceed 75% of turnover, which is evidenced by GST returns, audited financial statements, and shipping documents.
+
+18. The delay of 15 days is minimal and appears to be on account of administrative oversight rather than deliberate non-compliance.
+
+19. The Respondent has not alleged any fraudulent claim or that the delay has prejudiced revenue collection in any manner.
+
+20. Applying the doctrine of substantial compliance and considering the minimal delay, this Court is of the view that the petitioner's exemption claim cannot be rejected on purely technical grounds.
+
+PRECEDENTS APPLIED:
+
+21. Commissioner of Income Tax vs. Reliance Industries Ltd. (2019) 16 SCC 736 - Substantial compliance principle
+
+22. Union of India vs. Dharamendra Textile Processors (2008) 13 SCC 369 - Liberal interpretation of tax exemption procedural requirements
+
+23. State of Punjab vs. Sharma Enterprises (2012) 8 SCC 449 - Distinguished on facts as there was no substantial compliance in that case
+
+DECISION:
+
+24. For the foregoing reasons, this writ petition is allowed.
+
+25. The impugned order dated 15th February 2022 is hereby quashed and set aside.
+
+26. The Respondent is directed to grant exemption to the petitioner under Section 5(2) of the Delhi Professional Tax Act, 1989 for the assessment year 2021-22.
+
+27. The petitioner shall file Form PT-7 within seven days from the date of this order, and the Respondent shall process the exemption within 30 days thereafter.
+
+28. No order as to costs.
+
+
+(Sd/-)
+JUSTICE [NAME REDACTED]
+HIGH COURT OF DELHI
+NEW DELHI
+15th March 2023
