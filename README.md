@@ -401,4 +401,4 @@ For deep-dive explanations of design decisions, see [`docs/project_logic.md`](./
 
 ## 📄 License
 
-This project is built for educational purposes as part of a final-year IT project.
+This project is built for educational purposes and released as open source project. No restrictions apply.
