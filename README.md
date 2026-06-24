@@ -127,7 +127,15 @@ Ai_Case_Law_sumcom/
 
 ## 🚀 Getting Started — Complete Setup Guide
 
-Follow these steps **in order** to get all services running.
+Follow these steps to get the platform running on your local machine.
+
+### ⚡ Quick Start (Windows Only)
+If you are on Windows, we have provided an automated startup script!
+1. Complete **Step 1** to **Step 5** below to install all requirements.
+2. Double-click the `start_all.bat` file in the project root.
+3. It will automatically open 4 terminal windows and start all services (Ollama, Backend, Frontend, AI Service) for you!
+
+---
 
 ### Prerequisites
 
@@ -183,11 +191,11 @@ npm install
 # Create your .env file from the template
 copy .env.example .env
 
-# The .env file contains:
+# The .env file must contain your Supabase credentials to save analysis results!
 # PORT=5000
 # AI_SERVICE_URL=http://localhost:8000
-# SUPABASE_URL=your-supabase-url      (optional for now)
-# SUPABASE_KEY=your-supabase-anon-key (optional for now)
+# SUPABASE_URL=your-supabase-url
+# SUPABASE_ANON_KEY=your-supabase-anon-key
 ```
 
 ---
@@ -231,8 +239,12 @@ ollama serve
 
 ---
 
-### Step 6: Run All Services
+### Step 6: Start All Services
 
+**Option A: Windows Auto-Start**  
+Double-click `start_all.bat` in the project root. It will open all required terminals automatically.
+
+**Option B: Manual Start (Mac/Linux/Windows)**  
 You need **4 terminal windows** open at the same time.
 
 #### 🖥️ Terminal 1 — Ollama (AI Model Server)
@@ -313,6 +325,18 @@ Once all services are running, open these URLs and verify:
 
 ---
 
+## 🎯 How to Use the Platform
+
+Once everything is running:
+1. Open your browser and go to `http://localhost:3000`.
+2. **Upload Documents**: Drag and drop two legal judgment PDF files into the upload zone.
+3. **Analyze**: Click the "Compare Selected Cases" button.
+4. **Wait for AI**: The AI pipeline will extract the text, generate plain-English summaries, extract legal issues, and perform a deep comparative analysis. This may take 1-3 minutes depending on your computer's speed.
+5. **Review & Chat**: Read the comparison dashboard. You can use the "Urimai Kural" chatbot on the right to ask specific questions about the comparison.
+6. **Export**: Click "Export PDF Report" to download a beautifully formatted report of the analysis. The report is automatically saved to your Supabase database.
+
+---
+
 ## 📖 Testing the AI Endpoints Manually
 
 The easiest way to test without the full frontend is the built-in docs page.
@@ -356,6 +380,8 @@ The easiest way to test without the full frontend is the built-in docs page.
 | `ECONNREFUSED` on port 8000 | AI service not running | Run `python main.py` in ai-service folder |
 | `ModuleNotFoundError` in Python | Package not installed | Run `pip install -r requirements.txt` globally |
 | Frontend shows blank page | Vite not running | Run `npm run dev` in the frontend folder |
+| Results not saving to Supabase | Missing or incorrect `.env` variables | Ensure `SUPABASE_URL` and `SUPABASE_ANON_KEY` are correct in `backend/.env` and **restart the backend server**. |
+| `timeout of 90000ms exceeded` | AI took too long to generate | We have increased the timeout to 10m. If this persists, try using a smaller/faster model. |
 
 ---
 
